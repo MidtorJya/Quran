@@ -126,9 +126,9 @@ echo '
                 //<source src="horse.ogg" type="audio/ogg">
                  //<source src="audio/001.mp3>'.$data['audios'] .'" type="audio/mp3"></audio>' ;  
                  
-                echo '<audio controls loop>
-                <source src="audio/"'.$data['audios']. 'type="audio/mpeg">
-                 </audio>';
+                echo   '<audio controls loop>
+                <source src="audio/'.$data['audios']. '" type="audio/mpeg">
+                </audio>';
 
 
                  //echo '<src="audio/'.$data['audios'].'">';
